@@ -1,0 +1,16 @@
+{
+  "name": "01-bases-node",
+  "version": "0.0.1",
+  "description": "Multiplication table in a text file",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run base3": "node app --base=3"
+  },
+  "author": "Tomas Guttman",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "yargs": "^17.4.1"
+  }
+}
